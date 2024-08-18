@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  transition: 100ms;
+  /* background-color: rgb(255, 89, 114); */
+}
+
+input[type=password]::-ms-reveal,
+input[type=password]::-ms-clear
+{
+    display: none;
+}
+
+.cherry{
+  --primary: 255, 59, 88;
+  --primary-bg: 255, 0, 38;
+  --primary-body: 255, 215, 221;
+
+  --main-text: 0, 0, 0;
+  --theme-text: 255, 255, 0;
+  --body-text: 0, 0, 0;
+  
+  --theme-border: 0, 0, 0;
+  
+  --delete-bg: 255, 71, 99;
+
+  --footer-bg: 255, 215, 221;
+
+  --input-bg: 255, 255, 255;
+  
+  font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+}
+
+.light{
+  --primary: 33, 33, 33;
+  --primary-bg: 52, 52, 52;
+  --primary-body: 240, 240, 240;
+
+  --main-text: 255, 255, 255;
+  --theme-text: 0, 187, 255;
+  --body-text: 0, 0, 0;
+
+  --theme-border: 0, 0, 0;
+
+  --delete-bg: 240, 240, 240;
+
+  --footer-bg: 240, 240, 240;
+
+  --input-bg: 33, 33, 33;
+  
+  font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+}
+
+.dark{
+  --primary: 47, 0, 135;
+  --primary-bg: 67, 0, 194;
+  --primary-body: 0, 0, 0;
+
+  --main-text: 255, 255, 255;
+  --theme-text: 255, 0, 123;
+  --body-text: 255, 255, 255;
+
+  --theme-border: 200, 200, 200;
+
+  --delete-bg: 25, 25, 25;
+
+  --footer-bg: 230, 230, 230;
+
+  --input-bg: 33, 33, 33;
+  
+  font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+}
